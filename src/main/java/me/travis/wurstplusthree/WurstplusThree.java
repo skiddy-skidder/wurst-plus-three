@@ -28,7 +28,7 @@ public class WurstplusThree {
 
     public static final String MODID = "skidclient";
     public static final String MODNAME = "SkidClient";
-    public static final String MODVER = "0.69.420";
+    public static final String MODVER = "0.12.12";
 
     public static final Logger LOGGER = LogManager.getLogger(MODID);
 
