@@ -86,7 +86,7 @@ public class AutoEz extends Hack {
     private void announceDeath() {
         if (this.delayCount < 150) return;
         delayCount = 0;
-        mc.player.connection.sendPacket(new CPacketChatMessage(event.player.getName() + ", ezz" + (discord.getValue() ? " | discord.gg/wurst" : "")));
+        mc.player.connection.sendPacket(new CPacketChatMessage("ezz kill" + (discord.getValue() ? " | discord.gg/wurst" : "")));
 
     }
 
