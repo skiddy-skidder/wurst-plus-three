@@ -118,7 +118,7 @@ public class Hud extends Hack {
         }
         int y = 72;
         if (friends.isEmpty()) {
-            drawString(ChatFormatting.BOLD + "U got no friends", 10, y);
+            drawString(ChatFormatting.BOLD + "None of your friends are online.", 10, y);
         } else {
             drawString(ChatFormatting.BOLD + "the_fellas", 10, y);
             y += 12;
